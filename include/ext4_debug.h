@@ -59,6 +59,8 @@ extern "C" {
 #define PRId64 "lld"
 #endif
 
+#define inline __inline
+
 
 #define DEBUG_BALLOC (1ul << 0)
 #define DEBUG_BCACHE (1ul << 1)

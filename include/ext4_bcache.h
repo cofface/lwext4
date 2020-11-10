@@ -48,6 +48,8 @@ extern "C" {
 #include <misc/tree.h>
 #include <misc/queue.h>
 
+#define inline __inline
+
 #define EXT4_BLOCK_ZERO() 	\
 	{.lb_id = 0, .data = 0}
 

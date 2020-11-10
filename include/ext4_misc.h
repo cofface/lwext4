@@ -44,6 +44,8 @@ extern "C" {
 
 #include <stdint.h>
 
+#define inline __inline
+
 /**************************************************************/
 
 #define EXT4_DIV_ROUND_UP(x, y) (((x) + (y) - 1)/(y))
